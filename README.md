@@ -41,7 +41,10 @@ VM ini menjalankan Ubuntu 22.04 LTS dengan ukuran Standard_B1s. VM ini terhubung
 <img width="765" height="292" alt="image" src="https://github.com/user-attachments/assets/c5c53c9f-61f8-498b-b9f6-72c10a078211" />
 Pada konfigurasi inbound rules, terdapat beberapa aturan yang mengizinkan akses melalui HTTP pada port 80, HTTPS pada port 443, SSH pada port 22, serta aplikasi pada port 8080. Rule App pada port 8080 digunakan untuk mengizinkan akses menuju aplikasi yang berjalan di dalam Docker container. Selain itu, terdapat rule bawaan Azure untuk mengizinkan traffic dari Virtual Network dan Azure Load Balancer, serta rule DenyAllInBound sebagai aturan penolakan terhadap traffic masuk yang tidak diizinkan. Konfigurasi ini memungkinkan VM menerima traffic yang diperlukan sekaligus tetap menerapkan kontrol terhadap akses jaringan. Pengaturan NSG ini kami terapkan tidak hanya pada satu VM, namun kami tetapkan pada seluruh vm yang ada.
 
-## 5. Penambahan Website Portofolio
+## 5. Pembuatan Load Balancer
+<img width="1600" height="727" alt="Traffic Load Balancer" src="https://github.com/user-attachments/assets/2582eda0-e3e6-4e53-b8f3-d9ccf41bb5b3" />
+
+## 6. Penambahan Website Portofolio
 0. Gambaran akhir
 
 Target kita:
@@ -196,11 +199,10 @@ Contoh:
 
 Kalau diminta password, masukkan password VM Galuh.
 
-5. Pembuatan load balancer
-<img width="1600" height="727" alt="Traffic Load Balancer" src="https://github.com/user-attachments/assets/85ee3ef7-52a9-42e4-994e-e6696096df3d" />
 
 
-6. Masuk ke Galuh
+
+5. Masuk ke Galuh
 <img width="340" height="362" alt="image" src="https://github.com/user-attachments/assets/542d43f9-47ce-4ec8-91f9-504731409eea" />
 
 ``ssh galuh@<PUBLIC-IP-GALUH>``
