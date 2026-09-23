@@ -5,7 +5,7 @@ Anggota :
 | Name           | NRP        |
 | ---            | ---        | 
 | Elba Galuh Hardiyanti            | 5025251025        | 
-| M. Fausta Putra Kavie            | 5025251110        | 
+| M. Fauzta Putra Kavie            | 5025251110        | 
 | Nabila Zalfaa Putri Hamid            | 5025251089        | 
 | Maida Aqillah Putri Nurandani            | 5025251122        | 
 
