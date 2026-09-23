@@ -196,7 +196,11 @@ Contoh:
 
 Kalau diminta password, masukkan password VM Galuh.
 
-5. Masuk ke Galuh
+5. Pembuatan load balancer
+<img width="1600" height="727" alt="Traffic Load Balancer" src="https://github.com/user-attachments/assets/85ee3ef7-52a9-42e4-994e-e6696096df3d" />
+
+
+6. Masuk ke Galuh
 <img width="340" height="362" alt="image" src="https://github.com/user-attachments/assets/542d43f9-47ce-4ec8-91f9-504731409eea" />
 
 ``ssh galuh@<PUBLIC-IP-GALUH>``
