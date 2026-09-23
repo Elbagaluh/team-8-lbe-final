@@ -43,6 +43,7 @@ Pada konfigurasi inbound rules, terdapat beberapa aturan yang mengizinkan akses 
 
 ## 5. Pembuatan Load Balancer
 <img width="1600" height="727" alt="Traffic Load Balancer" src="https://github.com/user-attachments/assets/2582eda0-e3e6-4e53-b8f3-d9ccf41bb5b3" />
+Azure Load Balancer load-balancer-team8 dibuat untuk mendistribusikan lalu lintas jaringan secara otomatis ke tiga mesin virtual (vm-mai, vm-galuh, dan vm-team08-kavie). Akses masuk dari klien diterima melalui titik gerbang frontend-team8, lalu disalurkan lewat aturan lb-rule-8080 menuju backend-pool. Seluruh VM target sudah terhubung dengan baik dan berstatus sehat (centang hijau)
 
 ## 6. Penambahan Website Portofolio
 0. Gambaran akhir
