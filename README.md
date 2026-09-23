@@ -42,8 +42,8 @@ VM ini menjalankan Ubuntu 22.04 LTS dengan ukuran Standard_B1s. VM ini terhubung
 Pada konfigurasi inbound rules, terdapat beberapa aturan yang mengizinkan akses melalui HTTP pada port 80, HTTPS pada port 443, SSH pada port 22, serta aplikasi pada port 8080. Rule App pada port 8080 digunakan untuk mengizinkan akses menuju aplikasi yang berjalan di dalam Docker container. Selain itu, terdapat rule bawaan Azure untuk mengizinkan traffic dari Virtual Network dan Azure Load Balancer, serta rule DenyAllInBound sebagai aturan penolakan terhadap traffic masuk yang tidak diizinkan. Konfigurasi ini memungkinkan VM menerima traffic yang diperlukan sekaligus tetap menerapkan kontrol terhadap akses jaringan. Pengaturan NSG ini kami terapkan tidak hanya pada satu VM, namun kami tetapkan pada seluruh vm yang ada.
 
 ## 5. Pembuatan Load Balancer
-<img width="1600" height="727" alt="Traffic Load Balancer" src="https://github.com/user-attachments/assets/2582eda0-e3e6-4e53-b8f3-d9ccf41bb5b3" />
-Azure Load Balancer load-balancer-team8 dibuat untuk mendistribusikan lalu lintas jaringan secara otomatis ke tiga mesin virtual (vm-mai, vm-galuh, dan vm-team08-kavie). Akses masuk dari klien diterima melalui titik gerbang frontend-team8, lalu disalurkan lewat aturan lb-rule-8080 menuju backend-pool. Seluruh VM target sudah terhubung dengan baik dan berstatus sehat (centang hijau)
+<img width="700" height="507" alt="image" src="https://github.com/user-attachments/assets/f58158ef-0fe7-4bbd-a015-3956e1d15c83" />
+Azure Load Balancer load-balancer-team8 dibuat untuk mendistribusikan lalu lintas jaringan secara otomatis ke tiga mesin virtual (vm-mai, vm-galuh, vm-nabila, dan vm-team08-kavie). Akses masuk dari klien diterima melalui titik gerbang frontend-team8, lalu disalurkan lewat aturan lb-rule-8080 menuju backend-pool. Seluruh VM target sudah terhubung dengan baik dan berstatus sehat (centang hijau)
 
 ## 6. Penambahan Website Portofolio
 0. Gambaran akhir
