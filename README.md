@@ -564,6 +564,8 @@ sudah berjalan.
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/19f480be-4ad4-4355-885e-cc773c35a68d" />
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/d50538db-66f7-4e16-94e3-d331c0bf36f7" />
 
+## Bukti Curl Loop
+<img width="716" height="424" alt="image" src="https://github.com/user-attachments/assets/e95923ab-e30f-4ba6-8a21-3195c78dd4b7" />
 
 
 Di komputer buka:
