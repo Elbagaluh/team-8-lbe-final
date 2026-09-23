@@ -11,6 +11,10 @@ Anggota :
 
 Pada final project ini, kelompok kami menerapkan konsep load balancing menggunakan Azure untuk membangun sistem yang mampu mendistribusikan traffic ke beberapa virtual machine. Setiap virtual machine menjalankan aplikasi berbasis Docker, kemudian seluruhnya dihubungkan melalui Azure Standard Load Balancer. Melalui project ini, kami tidak hanya mengimplementasikan konfigurasi load balancer, tetapi juga melakukan pengujian untuk membuktikan bahwa traffic dapat didistribusikan ke beberapa backend secara efektif.
 
+## Arsitektur
+<img width="273" height="342" alt="image" src="https://github.com/user-attachments/assets/02ab84c5-b1c8-4c99-bcf1-d17e576a4a84" />
+
+
 ## 1. Pembuatan Resource Group
 
 <img width="599" height="387" alt="image" src="https://github.com/user-attachments/assets/499effef-a0da-40a4-a6cd-d41794ddba62" />
