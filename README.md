@@ -558,6 +558,9 @@ sudah berjalan.
 20. Buka portfolio dari browser
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/a10f3ad4-9ba1-4efd-8bc6-4a47e2b839b7" />
 <img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/6d8336df-ac8b-49dc-8b48-f72c0df5dfed" />
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/19f480be-4ad4-4355-885e-cc773c35a68d" />
+<img width="1600" height="860" alt="image" src="https://github.com/user-attachments/assets/d50538db-66f7-4e16-94e3-d331c0bf36f7" />
+
 
 
 Di komputer buka:
